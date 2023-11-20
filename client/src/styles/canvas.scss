@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.canvas{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    box-shadow: 3px 3px 5px $shadow-color;
+    background-color: white;
+    border-radius: 15px;
+}
